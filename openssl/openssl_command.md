@@ -178,7 +178,8 @@ verify OK
   判断输出的hash值是否一样
 
 
-
-
+## 9 查看公钥内容
+   openssl rsa -in -pubin pub.key -noout -text
+   pub.key为公钥名
 
 
